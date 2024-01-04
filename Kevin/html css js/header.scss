@@ -1,0 +1,51 @@
+@import 'variable';
+
+$active__bouton: (
+  text-decoration: underline,
+  text-underline-offset: 3px,
+  text-decoration-thickness: 3px,
+);
+
+@each $selector in '.nav__bouton1', '.nav__bouton2','.nav__bouton3', '.nav__bouton4' {
+  #{$selector}.active {
+    @each $property, $value in $active__bouton {
+      #{$property}: $value;
+    }
+  }
+}
+header {
+    background-color: #302E2F;
+    border-bottom: solid 3px $background-main;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+        .logo {
+            width: 66px;
+            height: 66px;
+            margin-left: 15px;
+        }
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            gap:10px;
+            margin-left: auto;
+            
+        }
+        a {
+          @include font-property(1em, 'Raleway', none);
+            color : $font-color-prim;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            
+        } 
+        a:hover {
+            background-color: #30334B;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: underline;
+        }
+}

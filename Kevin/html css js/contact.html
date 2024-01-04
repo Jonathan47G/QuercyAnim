@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Bienvenue sur le site de Quercy'Anim. Nous sommes spécialisés dans l'animation de soirées, les prestations de sonorisation, d'éclairage et de techniques pour différents événements tels que les mariages, les anniversaires et les fêtes de village. Découvrez nos services et contactez-nous pour rendre votre événement inoubliable.">
+    <meta name="author" content="QUERCY'Anim">
+    <title>Accueil - Quercy'Anim</title>
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="haut">
+        <img class="logo" src="../Images/Logo_Quercy_AnimRedim.png" alt="Logo Quercy'Anim" title="Quercy'Anim" />
+        <div class="nav">
+            <a class="nav__bouton1" href="accueil.html">Acceuil</a>
+            <a class="nav__bouton2" href="agendapresta.html">Agenda et prestation</a>
+            <a class="nav__bouton3" href="galerie.html">Galerie</a>
+            <a class="nav__bouton4 active" href="contact.html">Nous contacter</a>
+
+        </div>
+    </header>
+
+    <main class="main__contact">
+        <section class="contact__map">
+            <div id="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11416.788244206178!2d1.0339825!3d44.3264548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ab9dec2e02a3c3%3A0x89f9de93b26d7b52!2sQuercy%20Anim%E2%80%99%20(Dj%20Discomobile)!5e0!3m2!1sfr!2sfr!4v1690629382441!5m2!1sfr!2sfr"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+        </section>            
+            <form method="get" action="" class="contact-form" id="contact-form">
+                <fieldset>
+                    <legend>Contacter nous pour une demande de devis !</legend>
+                    <p>
+                        <input type="text" name="prenom" placeholder="Prenom" required>
+                        <input type="text" name="nom" placeholder="Nom" required>
+                    </p>
+                    <p>
+                        <input type="email" name="e-mail" placeholder="E-mail" required>
+                        <input type="tel" name="telephone" placeholder="Telephone" required>
+                    </p>
+                    <p>
+                        <label for="date">Pour quels date</label>
+                        <input type="date" name="date"required>
+                        <label for="raison">Pour quel événement</label>
+                        <select name="raison">
+                            <option value="----------">----------</option>
+                            <option value="mariage">Mariage</option>
+                            <option value="fete-local">Fête locale</option>
+                            <option value="soiree-privee">Soirée privée</option>
+                            <option value="seminaire">Séminaire</option>
+                        </select>
+                    </p>
+                    <p>
+                        <textarea name="Renseignement" placeholder="Afin de mieux m'informer" rows="10" cols="60"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Envoyer">
+                        <input type="reset" value="Clear">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img class="logo" src="../Images/Logo_Quercy_AnimRedim.png" alt="Logo Quercy'Anim" title="Quercy'Anim" />
+        <a href="#haut">Haut de page</a>
+        <div class="footer_bar">
+            <h3>Contact</h3>
+            <p>Numero : 06 64 94 84 93</p>
+            <p>E-mail : <strong>quercy.anim@gmail.com</strong></p>
+            <div class="reseau">
+                <a href="https://www.facebook.com/Quercyanim/">
+                    <img src="../Images/icons8-facebook-material-rounded-32.png" /></a>
+                <a href="https://www.instagram.com/quercyanim/">
+                    <img src="../Images/icons8-instagram-windows-11-32.png" /></a>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
