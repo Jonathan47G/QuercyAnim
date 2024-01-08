@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@radix-ui/colors/blue.css';
+@import '@radix-ui/colors/blue-dark.css';
+
+
