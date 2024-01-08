@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import data from "../../data/test.json";
-import { Overlock_SC } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 
-const overlock = Overlock_SC({
+const josefin = Josefin_Sans({
 	subsets: ["latin"],
 	weight: "400",
 });
@@ -32,19 +32,19 @@ const Slider = () => {
 	useEffect(() => {
 		const intervalId = setInterval(() => {
 			handleNext();
-		}, 5000);
+		}, 10000);
 
 		return () => clearInterval(intervalId)
 	}, [currentIndex]);
 
 	return (
 		<section className="h-auto flex flex-col align-center relative overflow-hidden">
-			<div className="conteneur_texte text-white absolute text-center absolute inset-0 top-[50px] h-max z-10 ">
+			<div className="conteneur_texte text-white text-center absolute inset-0 top-[50px] h-max z-10 ">
 				<h1
-					className={`text-7xl uppercase decoration-[#696256] decoration-4 underline underline-offset-8 ${overlock.className}`}>
+					className={`text-7xl decoration-[#696256] decoration-4 underline underline-offset-[10px] ${josefin.className}`}>
 					Quercy Anim&apos;
 				</h1>
-				<p className="text-3xl mt-10 uppercase bg-gradient-to-r from-[#978365] via-[#CBB99F] to-[#978365] text-transparent bg-clip-text">
+				<p className="text-3xl mt-10 bg-gradient-to-r from-[#978365] via-[#CBB99F] to-white text-transparent drop-shadow bg-clip-text">
 					Votre événement, notre priorité
 				</p>
 			</div>
@@ -58,9 +58,10 @@ const Slider = () => {
 				`}
 					src={data[currentIndex].image}
 					alt={data[currentIndex].titre}
-					priority={false}
+					priority={true}
 					width={1000}
 					height={800}
+					
 				/>
 			</div>
 
