@@ -27,8 +27,8 @@ const config: Config = {
 				},
 			},
 			animation: {
-				slideRight: "slideRight 500ms",
-				slideLeft: "slideLeft 500ms",
+				slideRight: "slideRight 600ms",
+				slideLeft: "slideLeft 600ms",
 			},
 			keyframes: {
 				slideRight: {
