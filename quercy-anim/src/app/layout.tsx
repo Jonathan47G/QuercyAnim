@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import {Overlock_SC, Noto_Sans_Georgian} from 'next/font/google'
+import { Playfair} from 'next/font/google'
 import './globals.css'
 
-const noto = Noto_Sans_Georgian({subsets: ['latin']})
+const playfair = Playfair({subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className={`max-w-[2000px] m-auto bg-iris-Background-1 ${noto.className}`} lang="fr">
+    <html className={`max-w-[2000px] m-auto bg-iris-Background-1 ${playfair.className}`} lang="fr">
       
       <body className='bg-iris-Background-2'>{children}</body>
       
