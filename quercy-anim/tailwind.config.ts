@@ -10,10 +10,9 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
-			backgroundImage: {
-				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-				"gradient-conic":
-					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+			fontFamily: {
+				playfair: ['var(--font-playfair)'],
+				josefin: ['var(--font-josefin)'],
 			},
 			colors: {
 				iris: {
@@ -24,8 +23,28 @@ const config: Config = {
 					"Interactive-3": "#303374",
 					"Border-sep-1": "#3D3E82",
 					"Border-sep-2": "#4A4A95",
+					"Border-ring-1": "#5958B1",
+					"Solid-1" : "#5B5BD6",
+					"Solid-2" : "#6E6ADE",
+					"Secondary-text": "#B1A9FF",
+					"Primary-text" : "#E0DFFE",
 				},
+				gold : {
+					"Background-1": "#121211",
+					"Background-2": "#1B1A17",
+					"Interactive-1": "#24231F",
+					"Interactive-2": "#2D2B26",
+					"Interactive-3": "#38352E",
+					"Border-sep-1": "#444039",
+					"Border-sep-2": "#544F46",
+					"Border-ring-1": "#696256",
+					"Solid-1" : "#978365",
+					"Solid-2" : "#A39073",
+					"Secondary-txt": "#CBB99F",
+					"Primary-text" : "#E8E2D9",
+				}
 			},
+			
 			animation: {
 				slideRight: "slideRight 600ms",
 				slideLeft: "slideLeft 600ms",

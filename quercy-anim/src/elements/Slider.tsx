@@ -3,12 +3,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import data from "../../data/test.json";
-import { Josefin_Sans } from "next/font/google";
-
-const josefin = Josefin_Sans({
-	subsets: ["latin"],
-	weight: "400",
-});
 
 const Slider = () => {
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -38,10 +32,10 @@ const Slider = () => {
 	}, [currentIndex]);
 
 	return (
-		<section className="h-auto flex flex-col align-center relative overflow-hidden">
+		<section className="h-auto flex flex-col align-center relative overflow-hidden shadow-lg shadow-gold-Border-sep-1">
 			<div className="conteneur_texte text-white text-center absolute inset-0 top-[50px] h-max z-10 ">
 				<h1
-					className={`text-7xl decoration-[#696256] decoration-4 underline underline-offset-[10px] ${josefin.className}`}>
+					className={`text-7xl decoration-[#696256] decoration-4 underline underline-offset-[10px]`}>
 					Quercy Anim&apos;
 				</h1>
 				<p className="text-3xl mt-10 bg-gradient-to-r from-[#978365] via-[#CBB99F] to-white text-transparent drop-shadow bg-clip-text">
@@ -49,12 +43,12 @@ const Slider = () => {
 				</p>
 			</div>
 
-			<div className={`conteneur_slider w-full h-[600px] max-h-[600px] aspect-auto ${animationClass}`}>
+			<div className={`conteneur_slider max-h-[700px] aspect-auto ${animationClass}`}>
 				<div
 					className="h-full w-full  z-1 bg-gradient-to-b from-black to transparent absolute"></div>
 					
 				<Image
-					className={`image_slider object-cover w-full h-[600px] flex overflow-hidden bg-gradient-to-r from-indigo-500 z-0
+					className={`image_slider object-cover w-full h-[700px] flex overflow-hidden z-0
 				`}
 					src={data[currentIndex].image}
 					alt={data[currentIndex].titre}

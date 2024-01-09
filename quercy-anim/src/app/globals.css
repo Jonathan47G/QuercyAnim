@@ -4,4 +4,22 @@
 @import '@radix-ui/colors/blue.css';
 @import '@radix-ui/colors/blue-dark.css';
 
+@layer base {
+    * {
+        @apply font-josefin
+    }
+    h1 {
+        @apply text-7xl;
+    }
+    h2 {
+        @apply text-5xl;
+    }
+    h3 {
+        @apply text-3xl
+    }
+    h1, h2, h3 {
+        @apply font-playfair
+    }
+    
+}
 

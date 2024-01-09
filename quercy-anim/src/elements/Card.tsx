@@ -17,19 +17,23 @@ const Card: React.FC<ContentProps> = ({
 	style,
 }) => {
 	return (
+		
 		<div className={style}>
 			<Image
-				className="object-cover w-6/7 h-[200px]"
+				className="object-cover w-6/7 h-[200px] "
 				src={image}
 				alt={title}
 				height={500}
 				width={500}
 				priority={false}
 			/>
-      <div className="bg-red-500 w-1/2 h-1"></div>
-			<h3>{title}</h3>
+			<div className="p-4">
+			<h3 className="text-3xl mb-5 mt-5">{title}</h3>
+			<div className="bg-gradient-to-r from-gold-Border-sep-1 via-gold-Border-ring-1 to-gold-Primary-text w-1/2 h-1 mb-5"></div>
 			<p>{text1}</p>
+			<br />
 			<p>{text2}</p>
+			</div>
 		</div>
 	);
 };
