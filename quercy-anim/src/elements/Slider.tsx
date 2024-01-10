@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import data from "../../data/test.json";
+import data from "../../data/slider.json";
 
 const Slider = () => {
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -32,10 +32,10 @@ const Slider = () => {
 	}, [currentIndex]);
 
 	return (
-		<section className="h-auto flex flex-col align-center relative overflow-hidden shadow-lg shadow-gold-Border-sep-1">
+		<section className="h-auto flex flex-col align-center relative overflow-hidden shadow-lg shadow-gold-Border-sep-1 mb-16">
 			<div className="conteneur_texte text-white text-center absolute inset-0 top-[50px] h-max z-10 ">
 				<h1
-					className={`text-7xl decoration-[#696256] decoration-4 underline underline-offset-[10px]`}>
+					className={`text-7xl decoration-[#696256] decoration-2 underline underline-offset-[10px]`}>
 					Quercy Anim&apos;
 				</h1>
 				<p className="text-3xl mt-10 bg-gradient-to-r from-[#978365] via-[#CBB99F] to-white text-transparent drop-shadow bg-clip-text">
