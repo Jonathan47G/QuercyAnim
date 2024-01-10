@@ -15,11 +15,11 @@
         @apply text-5xl;
     }
     h3 {
-        @apply text-3xl
+        @apply text-3xl;
     }
     h1, h2, h3 {
-        @apply font-playfair
+        @apply font-playfair;
+        @apply text-gold-Primary-text;
     }
-    
 }
 
