@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "nomPrenom": "Guestin Kévin",
+      "role": "Titre de l'image 1",
+      "image":"",
+      "description": "01/01/2023"
+    },
+    {
+        "id": 2,
+        "nomPrenom": "/images/slideShow/image1.jpg",
+        "role": "Titre de l'image 1",
+        "image": "",
+        "description": "01/01/2023"
+    }
+  ]
