@@ -4,6 +4,7 @@ import fetchFacebookData from "@/conteneurs/test";
 import Header from "@/conteneurs/Headers";
 import Banniere from "@/conteneurs/Banniere";
 import Prestation from "@/conteneurs/Prestation";
+import Staff from "@/conteneurs/Staff";
 
 export default function Home() {
 	return (
@@ -11,6 +12,7 @@ export default function Home() {
 			<Header />
 			<Banniere />
 			<Prestation />
+			<Staff />
 		</>
 	);
 }
