@@ -23,8 +23,8 @@ const Card: React.FC<ContentProps> = ({
 				className="object-cover w-6/7 h-[200px]"
 				src={image}
 				alt={title}
-				height={200}
 				width={500}
+				height={500}
 				priority={true}
 			/>
 			<div className="bg-gradient-to-r from-gold-Border-sep-1 via-gold-Border-ring-1 to-gold-Primary-text w-full h-[2px]"></div>
