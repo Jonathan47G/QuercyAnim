@@ -2,15 +2,17 @@
 
 import Card from "@/elements/Card";
 import Image from "next/image";
-
+import test from "../../public/waveLine.svg"
 export default function Prestation() {
 	const cardProps = {
-		cardClassName : "flex flex-col  bg-[#3636FE0E] border-2 border-gold-Border-sep-1",
+		cardClassName : "flex flex-col  bg-[#3636FE0E] border-2 border-gold-Border-sep-1 rounded-b-lg",
 	};
 		return (
-		<section className="bg-iris-Background-2 text-gold-Primary-text p-5 pt-[50px] mt-[100px] flex flex-col">
-			<h2 className="text-5xl text-gold-Secondary-text mb-[100px] text-center"><strong>Nos prestations</strong></h2>
-			<div className="grid grid-cols-4  gap-11 w-11/12 m-auto">
+		<section className="bg-iris-Background-2 text-gold-Primary-text pt-[150px] flex flex-col relative">
+			<div className="absolute w-full z-0 top-[-75px]"><Image className="object-fill w-full h-[500px] opacity-60 z-0" src={test} alt="Fond en forme d'onde"/></div>
+			<h2 className="text-5xl mb-[125px] text-center z-10"><strong>Nos prestations</strong></h2>
+			
+			<div className="grid grid-cols-4  gap-11 w-11/12 m-auto z-10">
 				<Card
 					style={cardProps.cardClassName}
 					image="/images/card/animation_soiree.jpg"
