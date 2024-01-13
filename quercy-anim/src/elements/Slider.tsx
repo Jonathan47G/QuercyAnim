@@ -33,14 +33,15 @@ const Slider = () => {
 
 	return (
 		<section className="h-auto flex flex-col align-center relative overflow-hidden shadow-lg shadow-gold-Border-sep-1 mb-16">
-			<div className="conteneur_texte text-white text-center absolute inset-0 top-[50px] h-max z-10 ">
-				<h1
-					className={`text-7xl decoration-[#696256] decoration-2 underline underline-offset-[10px]`}>
-					Quercy Anim&apos;
+			<div className="conteneur_texte text-center absolute inset-0 top-[50px] h-max z-10 ">
+				<hgroup><h1
+					className={`text-7xl decoration-[#696256] text-gold-Primary-text decoration-2 underline underline-offset-[10px]`}>
+					<strong>Quercy Anim&apos;</strong>
 				</h1>
 				<p className="text-3xl mt-10 bg-gradient-to-r from-[#978365] via-[#CBB99F] to-white text-transparent drop-shadow bg-clip-text">
-					Votre événement, notre priorité
+				Votre <em>événement, notre priorité</em>
 				</p>
+				</hgroup>
 			</div>
 
 			<div className={`conteneur_slider max-h-[700px] aspect-auto ${animationClass}`}>

@@ -29,11 +29,12 @@ const Card: React.FC<ContentProps> = ({
 			/>
 			<div className="bg-gradient-to-r from-gold-Border-sep-1 via-gold-Border-ring-1 to-gold-Primary-text w-full h-[2px]"></div>
 			<div className="p-4">
-			<h3 className="text-3xl mb-5 mt-5">{title}</h3>
+			<hgroup><h3 className="text-3xl mb-5 mt-5">{title}</h3>
 			<div className="bg-gradient-to-r from-gold-Border-sep-1 via-gold-Border-ring-1 to-gold-Primary-text w-1/2 h-1 mb-5"></div>
 			<p>{text1}</p>
 			<br />
 			<p>{text2}</p>
+			</hgroup>
 			</div>
 		</div>
 	);

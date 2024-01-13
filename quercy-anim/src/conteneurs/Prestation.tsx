@@ -18,7 +18,7 @@ export default function Prestation() {
 					alt="Fond en forme d'onde"
 				/>
 			</div>
-			<h2 className="text-5xl mb-[125px] text-center z-10">
+			<h2 className="decoration-[#696256] decoration-2 underline underline-offset-[9px] text-5xl mb-[125px] text-center z-10">
 				<strong>Nos prestations</strong>
 			</h2>
 

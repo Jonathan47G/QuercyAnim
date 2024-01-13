@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair, Josefin_Sans } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const playfair = Playfair({ subsets: ["latin"], variable: "--font-playfair" });
 const josefin = Josefin_Sans({
@@ -23,6 +24,11 @@ export default function RootLayout({
 		<html
 			className={`max-w-[2000px] m-auto bg-iris-Background-1 ${playfair.variable} ${josefin.variable}`}
 			lang="fr">
+				<head><Script
+          src="https://static.elfsight.com/platform/platform.js"
+          data-use-service-core
+          defer
+        /></head>
 			<body className="bg-iris-Background-2">{children}</body>
 		</html>
 	);

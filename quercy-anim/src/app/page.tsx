@@ -5,6 +5,7 @@ import Header from "@/conteneurs/Headers";
 import Banniere from "@/conteneurs/Banniere";
 import Prestation from "@/conteneurs/Prestation";
 import Staff from "@/conteneurs/Staff";
+import RetourClient from "@/conteneurs/Retour";
 
 export default function Home() {
 	return (
@@ -13,6 +14,7 @@ export default function Home() {
 			<Banniere />
 			<Prestation />
 			<Staff />
+			<RetourClient />
 		</>
 	);
 }

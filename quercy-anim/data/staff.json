@@ -1,16 +1,16 @@
 [
-    {
-      "id": 1,
-      "nomPrenom": "Guestin Kévin",
-      "role": "Titre de l'image 1",
-      "image":"",
-      "description": "01/01/2023"
-    },
-    {
-        "id": 2,
-        "nomPrenom": "/images/slideShow/image1.jpg",
-        "role": "Titre de l'image 1",
-        "image": "",
-        "description": "01/01/2023"
-    }
-  ]
+	{
+		"id": 1,
+		"titre": "Kévin",
+		"image": "/images/photo/kevin.jpg",
+		"fonction": "DJ - Animateur",
+		"description": " Kévin, notre talentueux DJ et animateur, est le maître de la musique et de l'ambiance. \nFort de plus de 10 ans d'expérience dans le secteur événementiel, il excelle à créer une atmosphère festive et mémorable pour célébrer votre union. Confiez-lui la tâche de faire danser toutes les générations présentes sur la piste de danse. Son savoir-faire et son professionnalisme garantissent une soirée de mariage inoubliable."
+	},
+	{
+		"id": 2,
+		"titre": "Nicolas ",
+		"image": "/images/photo/nico.jpg",
+		"fonction": "Automatisme - Éclairage",
+		"description": "Nicolas, apporte une touche technique exceptionnelle à votre soirée. Avec une passion pour la création d'ambiances visuelles et sonores uniques, il se spécialise dans la gestion des lumières liées à la musique, telles que les spots, les machines à fumée, etc. Nicolas s'assurera que chaque moment de votre mariage soit sublimé par un éclairage architectural élégant, synchronisé harmonieusement avec la musique. Fort du matériel de pointe dont dispose Quercy anim’, Nicolas contribue au succès de votre événement en mettant en valeur votre lieu de réception et votre décoration. Sa créativité et son professionnalisme garantissent une ambiance de folie, laissant des souvenirs éclatants de votre journée spéciale."
+	}
+]
