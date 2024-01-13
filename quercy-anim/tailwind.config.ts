@@ -40,7 +40,7 @@ const config: Config = {
 					"Border-ring-1": "#696256",
 					"Solid-1" : "#978365",
 					"Solid-2" : "#A39073",
-					"Secondary-txt": "#CBB99F",
+					"Secondary-text": "#CBB99F",
 					"Primary-text" : "#E8E2D9",
 				}
 			},
