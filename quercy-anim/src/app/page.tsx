@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import fetchFacebookData from "@/conteneurs/test";
 import Header from "@/conteneurs/Headers";
 import Banniere from "@/conteneurs/Banniere";
 import Prestation from "@/conteneurs/Prestation";
 import Staff from "@/conteneurs/Staff";
 import RetourClient from "@/conteneurs/Retour";
+import Gallery from "@/conteneurs/Gallery";
+
 
 export default function Home() {
 	return (
@@ -14,7 +15,8 @@ export default function Home() {
 			<Banniere />
 			<Prestation />
 			<Staff />
+			<Gallery />
 			<RetourClient />
-		</>
+			</>
 	);
 }

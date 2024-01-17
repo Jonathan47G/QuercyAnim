@@ -1,38 +1,68 @@
 [
-    {
-      "id": 1,
-      "image": "/images/slideShow/image1.jpg",
-      "titre": "Titre de l'image 1",
-      "date": "01/01/2023"
-    },
-    {
-      "id": 2,
-      "image": "/images/slideShow/image2.jpg",
-      "titre": "Titre de l'image 2",
-      "date": "02/01/2023"
-    },
-    {
-      "id": 3,
-      "image": "/images/slideShow/image3.jpg",
-      "titre": "Titre de l'image 3",
-      "date": "03/01/2023"
-    },
-    {
-        "id": 4,
-        "image": "/images/slideShow/image1.jpg",
-        "titre": "Titre de l'image 1",
-        "date": "01/01/2023"
-      },
-      {
-        "id": 5,
-        "image": "/images/slideShow/image2.jpg",
-        "titre": "Titre de l'image 2",
-        "date": "02/01/2023"
-      },
-      {
-        "id": 6,
-        "image": "/images/slideShow/image3.jpg",
-        "titre": "Titre de l'image 3",
-        "date": "03/01/2023"
-      }
-  ]
+	{
+		"id": 1,
+		"image": "/images/gallery/1.jpg",
+		"titre": "bal des pompier Montaigu",
+		"date": "01/01/2023"
+	},
+	{
+		"id": 2,
+		"image": "/images/gallery/2.jpg",
+		"titre": "Image concert",
+		"date": "02/01/2023"
+	},
+	{
+		"id": 3,
+		"image": "/images/gallery/3.jpg",
+		"titre": "Fête Auvillar",
+		"date": "03/01/2023"
+	},
+	{
+		"id": 4,
+		"image": "/images/gallery/4.jpg",
+		"titre": "Fête local Dunes",
+		"date": "01/01/2023"
+	},
+	{
+		"id": 5,
+		"image": "/images/gallery/5.jpg",
+		"titre": "Image d'une fête local",
+		"date": "02/01/2023"
+	},
+	{
+		"id": 6,
+		"image": "/images/gallery/6.jpg",
+		"titre": "Photo d'un mariage",
+		"date": "03/01/2023"
+	},
+	{
+		"id": 7,
+		"image": "/images/gallery/7.jpg",
+		"titre": "Fête Mas Grenier 1",
+		"date": "03/01/2023"
+	},
+	{
+		"id": 8,
+		"image": "/images/gallery/8.jpg",
+		"titre": "Fête Mas Grenier 2",
+		"date": "03/01/2023"
+	},
+	{
+		"id": 9,
+		"image": "/images/gallery/9.jpg",
+		"titre": "Scene fêtes",
+		"date": "03/01/2023"
+	},
+	{
+		"id": 10,
+		"image": "/images/gallery/10.jpg",
+		"titre": "Photo soirée de Gala",
+		"date": "03/01/2023"
+	},
+	{
+		"id": 11,
+		"image": "/images/gallery/11.jpg",
+		"titre": "Soiree privée",
+		"date": "03/01/2023"
+	}
+]

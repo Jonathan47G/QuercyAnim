@@ -32,15 +32,15 @@ const Slider = () => {
 	}, [currentIndex]);
 
 	return (
-		<section className="h-auto flex flex-col align-center relative overflow-hidden shadow-lg shadow-gold-Border-sep-1 mb-16">
+		<section className="h-auto flex flex-col align-center relative overflow-hidden shadow-lg shadow-gold-Border-sep-1 mb-16" aria-label="Slider Quercy Anim">
 			<div className="conteneur_texte text-center absolute inset-0 top-[50px] h-max z-10 ">
 				<hgroup><h1
 					className={`text-7xl decoration-[#696256] text-gold-Primary-text decoration-2 underline underline-offset-[10px]`}>
 					<strong>Quercy Anim&apos;</strong>
 				</h1>
-				<p className="text-3xl mt-10 bg-gradient-to-r from-[#978365] via-[#CBB99F] to-white text-transparent drop-shadow bg-clip-text">
+				<h2 className="text-3xl mt-10 bg-gradient-to-r from-[#978365] via-[#CBB99F] to-white text-transparent drop-shadow bg-clip-text">
 				Votre <em>événement, notre priorité</em>
-				</p>
+				</h2>
 				</hgroup>
 			</div>
 
@@ -63,14 +63,16 @@ const Slider = () => {
 			<div className="conteneur-fleche w-full h-full absolute flex justify-between align-center z-2">
 				<button
 					className="p-8 h-full hover:backdrop-blur-md"
-					onClick={handlePrev}>
+					onClick={handlePrev}
+					aria-label="Image précédente du slider">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
 						strokeWidth={1.5}
 						stroke="white"
-						className="w-10 h-10">
+						className="w-10 h-10"
+						>
 						<path
 							strokeLinecap="round"
 							strokeLinejoin="round"
@@ -80,7 +82,8 @@ const Slider = () => {
 				</button>
 				<button
 					className="p-8 h-full hover:backdrop-blur-md"
-					onClick={handleNext}>
+					onClick={handleNext}
+					aria-label="Image suivante du slider">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -104,6 +107,7 @@ const Slider = () => {
 							index === currentIndex ? "active bg-[#A39073]" : "bg-white "
 						} `}
 						onClick={() => setCurrentIndex(index)}
+						aria-label={`Aller à l'image ${index + 1} du slider`}
 					/>
 				))}
 			</div>

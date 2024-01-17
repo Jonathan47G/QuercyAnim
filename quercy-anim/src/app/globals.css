@@ -21,5 +21,16 @@
         @apply font-playfair;
         @apply text-gold-Primary-text;
     }
+    .small {
+        height: 100px;
+      }
+      
+      .medium {
+        height: 200px;
+      }
+      
+      .large {
+        height: 300px;
+      }
 }
 
