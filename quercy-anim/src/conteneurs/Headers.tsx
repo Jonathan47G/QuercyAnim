@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Header() {
 	const lienProps = {
 		lienClassName:
-			"hover:decoration-gold-Primary-text hover:underline decoration-2 underline-offset-8 m-auto pl-7 h-[70px] flex items-center",
+			"hover:decoration-gold-Primary-text hover:underline decoration-2 underline-offset-8 m-auto pl-7 h-[70px] flex items-center" ,
 	};
 	const boxLien = {
 		boxClassName:
@@ -24,14 +24,12 @@ export default function Header() {
 						</Link>
 					</li>
 					<li className={lienProps.lienClassName}>
-						<Link href="/#Agenda" className={boxLien.boxClassName}>
-							{" "}
-							Agenda
+						<Link href="/#Prestations" className={boxLien.boxClassName}>
+							Prestation
 						</Link>
 					</li>
 					<li className={lienProps.lienClassName}>
 						<Link href="/#A-propos" className={boxLien.boxClassName}>
-							{" "}
 							A propos
 						</Link>
 					</li>
