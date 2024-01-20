@@ -3,6 +3,9 @@
 import Image from "next/image";
 import logo from "../../public/images/Logo_Quercy_AnimRedim.png";
 import Link from "next/link";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import badgeMariage from "../../public/images/badge_mariages.png";
 
 export default function Header() {
 	const lienProps = {
@@ -10,16 +13,16 @@ export default function Header() {
 	};
 	const boxLien = {
 		boxClassName:
-			"pl-3 pr-3 p-3 ring-2 ring-transparent border-t-4 border-transparent hover:border-gold-Solid-1 hover:text-gold-Secondary-text transition-all",
+			"pl-3 pr-3 p-3 ring-2 ring-transparent border-t-4 border-transparent hover:border-gold-Solid-1 hover:text-gold-Secondary-text transition-all duration-300",
 	};
 	return (
 		<header className="h-[80px] items-center relative ">
-			<div className="flex justify-between fixed z-40 bg-iris-Background-1 border-b-4 border-[#444039] max-w-[2000px] w-full p-4">
-				<Image src={logo} height={50} alt="logo Quercy Anim" />
+			<div className="flex justify-between items-center fixed z-40 bg-iris-Background-1 border-b-4 border-[#444039] max-w-[2000px] w-full p-4">
+				<Image src={logo} height={45} alt="logo Quercy Anim" className="h-[45px]" />
 				<nav>
 					<ul className="grid grid-cols-4 gap-5 text-lg text-white font-extrabold divide-x-2 divide-[#444039] border-transparent">
 						<li className={lienProps.lienClassName}>
-							<Link href="/#Accueil" className={boxLien.boxClassName}>
+							<Link href="/" className={boxLien.boxClassName}>
 								Accueil
 							</Link>
 						</li>
@@ -29,10 +32,42 @@ export default function Header() {
 							</Link>
 						</li>
 						<li className={lienProps.lienClassName}>
-							<Link href="/#A-propos" className={boxLien.boxClassName}>
+							<Link href="/#Galerie" className={boxLien.boxClassName}>
+								Galerie
+							</Link>
+						</li>
+						<li className={lienProps.lienClassName}>
+							<Link href="/#About" className={boxLien.boxClassName}>
 								A propos
 							</Link>
 						</li>
+					</ul>
+				</nav>
+				<nav className="flex">
+					<ul className="flex gap-5 justify-center items-center">
+						<li>
+							<Link href="https://www.facebook.com/Quercyanim" replace>
+								<FacebookIcon className="text-white hover:text-gold-Secondary-text transition-colors" fontSize="large"/>
+							</Link>
+						</li>
+						<li>
+							<Link href="https://www.instagram.com/quercyanim/">
+								<InstagramIcon className="text-white hover:text-gold-Secondary-text transition-colors" fontSize="large" />
+							</Link>
+						</li>
+						<li>
+							<Link
+								href="https://www.mariages.net/musique-mariage/quercy-anim--e248285"
+								replace>
+								<Image
+									src={badgeMariage}
+									alt="badge mariage.net"
+									width={35}
+									height={35}
+								/>
+							</Link>
+						</li>
+						
 					</ul>
 				</nav>
 			</div>
