@@ -10,7 +10,7 @@ export default function Prestation() {
 			"flex flex-col bg-[#3636FE0E] border-2 border-gold-Border-sep-1 rounded-b-lg text-lg",
 	};
 	return (
-		<section className="bg-iris-Background-2 text-gold-Primary-text pt-[150px] flex flex-col relative items-center gap-10">
+		<section className="bg-iris-Background-2 text-gold-Primary-text pt-[150px] flex flex-col relative items-center gap-10 "  id="Prestations">
 			<div className="absolute w-full z-0 top-[-75px]">
 				<Image
 					className="object-fill w-full h-[500px] opacity-60 z-0"
@@ -18,7 +18,7 @@ export default function Prestation() {
 					alt="Fond en forme d'onde"
 				/>
 			</div>
-			<h2  id="Prestations" className="decoration-[#696256] decoration-2 underline underline-offset-[9px] text-5xl mb-[125px] text-center z-10">
+			<h2 className="decoration-[#696256] decoration-2 underline underline-offset-[9px] text-5xl mb-[125px] text-center z-10">
 				<strong>Nos prestations</strong>
 			</h2>
 
