@@ -17,7 +17,7 @@ export default function Gallery() {
 
 
 	return (
-		<section className="w-full mt-10 overflow-hidden p-5 " aria-label="Quercy Anim en images">
+		<section className="w-full mt-10 overflow-hidden p-5 pt-[80px] " aria-label="Quercy Anim en images"  id="Galerie">
 			<h2 className="mt-5 text-center decoration-[#696256] decoration-2 underline underline-offset-[9px] font-extrabold">Notre Galerie</h2>
 			<Masonry
 				columns={4}
