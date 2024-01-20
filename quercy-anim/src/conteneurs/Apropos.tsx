@@ -5,13 +5,13 @@ import backgroundTexture from "@/../../public/images/polygon_luminary.svg";
 
 export default function Apropos() {
 	return (
-		<section className="flex flex-col justify-center items-center relative pb-[50px]">
+		<section className="flex flex-col justify-center items-center relative pb-[80px] pt-[80px]" id="About">
 			<Image
 				src={backgroundTexture}
 				alt="Background"
 				className="absolute opacity-15 h-full"
 			/>
-			<h2 className="mb-[50px] mt-[100px] decoration-[#696256] decoration-2 underline underline-offset-[9px] text-white font-extrabold  ">
+			<h2 className="mb-[50px] mt-[50px] decoration-[#696256] decoration-2 underline underline-offset-[9px] text-white font-extrabold  ">
 				Qui somme nous
 			</h2>
 			<div className="flex p-5 gap-10 items-center justify-evenly w-10/12">
