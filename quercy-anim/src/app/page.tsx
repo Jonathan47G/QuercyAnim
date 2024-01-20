@@ -6,6 +6,7 @@ import Prestation from "@/conteneurs/Prestation";
 import Staff from "@/conteneurs/Staff";
 import RetourClient from "@/conteneurs/Retour";
 import Gallery from "@/conteneurs/Gallery";
+import Apropos from "@/conteneurs/Apropos";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
 			<Prestation />
 			<Staff />
 			<Gallery />
+			<Apropos />
 			<RetourClient />
 			</>
 	);
