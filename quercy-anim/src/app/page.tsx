@@ -7,6 +7,7 @@ import Staff from "@/conteneurs/Staff";
 import RetourClient from "@/conteneurs/Retour";
 import Gallery from "@/conteneurs/Gallery";
 import Apropos from "@/conteneurs/Apropos";
+import Footer from "@/conteneurs/Footer";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
 			<Gallery />
 			<Apropos />
 			<RetourClient />
+			<Footer />
 			</>
 	);
 }
