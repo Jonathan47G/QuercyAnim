@@ -9,13 +9,22 @@
         @apply font-josefin
     }
     h1 {
-        @apply text-7xl;
+        @apply text-5xl;
+        @apply xl:text-7xl
     }
     h2 {
-        @apply text-5xl;
+        @apply text-3xl;
+        @apply xl:text-5xl;
     }
     h3 {
-        @apply text-3xl;
+        @apply text-xl;
+        @apply xl:text-3xl;
+    }
+    h4 {
+        @apply xl:text-lg;
+    }
+    p {
+        @apply xl:text-xl;
     }
     h1, h2, h3 {
         @apply font-playfair;

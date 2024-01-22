@@ -9,21 +9,23 @@ import badgeMariage from "../../public/images/badge_mariages.png";
 
 export default function Footer() {
 	return (
-		<footer className="grid grid-cols-3 justify-between bg-iris-Background-2 border-t-2 p-5 border-gold-Border-sep-1 text-gold-Primary-text">
+		<footer >
+			<div className="grid grid-cols-3 justify-between items-center bg-iris-Background-2 border-t-2 p-5 border-gold-Border-sep-1 text-gold-Primary-text pt-10">
 			<hgroup className="flex flex-col justify-center items-center gap-5">
 				<Image src={logo} alt="badge mariage.net" width={40} height={40} />
 
 				<p className="text-lg">Des questions ? Contactez-nous !</p>
-				<Link href="mailto:quercy.anim@gmail.com" className=" rounded-full p-2 bg-gold-Solid-1 hover:bg-gold-Solid-2 hover:scale-105">Contact</Link>
+				<Link href="mailto:quercy.anim@gmail.com" className=" rounded-xl p-3 bg-gold-Solid-1 hover:bg-gold-Solid-2 hover:scale-105">Contact</Link>
 			</hgroup>
 
-			<nav>
-				<ul className="flex flex-col gap-3 justify-center items-center">
-					<h3 className="text-xl">Nous suivre :</h3>
+			<nav className="flex flex-col items-center justify-around h-full">
+				<h3 className="text-xl underline">Nous suivre :</h3>
+				<ul className="flex gap-3 justify-center items-center">
+					
 					<li>
 						<Link href="https://www.facebook.com/Quercyanim" replace>
 							<FacebookIcon
-								className="text-gold-Secondary-text"
+								className="text-gold-Primary-text hover:text-gold-Secondary-text"
 								fontSize="large"
 							/>
 						</Link>
@@ -31,7 +33,7 @@ export default function Footer() {
 					<li>
 						<Link href="https://www.instagram.com/quercyanim/">
 							<InstagramIcon
-								className="text-gold-Secondary-text"
+								className="text-gold-Primary-text hover:text-gold-Secondary-text"
 								fontSize="large"
 							/>
 						</Link>
@@ -52,7 +54,7 @@ export default function Footer() {
 			</nav>
 
 			<div className="">
-            <h3 className="text-xl text-center mb-6">Adresse :</h3>
+            <h3 className="text-xl text-center mb-6 underline">Adresse :</h3>
                 <div className="flex justify-center items-center gap-5">
                 
                 
@@ -79,6 +81,11 @@ export default function Footer() {
 				</div>
 			</div>
             </div>
+			</div>
+			<div className="flex gap-5 mt-10 justify-center w-full text-gold-Secondary-text underline">
+				<Link href="/mentions-legales">Mention légales</Link>
+				<Link href="/politique-de-confidentialite">Politique de confidentialité</Link>
+			</div>
 		</footer>
 	);
 }

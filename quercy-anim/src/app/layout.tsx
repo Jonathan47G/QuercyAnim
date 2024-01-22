@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Playfair, Josefin_Sans } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import Header from "@/conteneurs/Headers";
+import Footer from "@/conteneurs/Footer";
 
 const playfair = Playfair({ subsets: ["latin"], variable: "--font-playfair" });
 const josefin = Josefin_Sans({
@@ -29,7 +31,7 @@ export default function RootLayout({
           data-use-service-core
           defer
         /></head>
-			<body className="bg-iris-Background-2">{children}</body>
+			<body className="bg-iris-Background-2"><Header/> {children} <Footer /></body>
 		</html>
 	);
 }

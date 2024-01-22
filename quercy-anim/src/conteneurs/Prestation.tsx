@@ -7,7 +7,7 @@ import waveLine from "../../public/waveLine.svg";
 export default function Prestation() {
 	const cardProps = {
 		cardClassName:
-			"flex flex-col bg-[#3636FE0E] border-2 border-gold-Border-sep-1 rounded-b-lg text-lg",
+			"flex flex-col bg-[#3636FE0E] border-2 border-gold-Border-sep-1 rounded-b-lg",
 	};
 	return (
 		<section className="bg-iris-Background-2 text-gold-Primary-text pt-[150px] flex flex-col relative items-center gap-10 "  id="Prestations">
@@ -18,11 +18,11 @@ export default function Prestation() {
 					alt="Fond en forme d'onde"
 				/>
 			</div>
-			<h2 className="decoration-[#696256] decoration-2 underline underline-offset-[9px] text-5xl mb-[125px] text-center z-10">
+			<h2 className="decoration-[#696256] decoration-2 underline underline-offset-[9px] mb-[125px] text-center z-10">
 				<strong>Nos prestations</strong>
 			</h2>
 
-			<div className="grid grid-cols-4  gap-11 w-11/12 m-auto z-10">
+			<div className="grid lg:grid-cols-4  gap-11 w-11/12 m-auto z-10">
 				<Card
 					style={cardProps.cardClassName}
 					image="/images/card/animation_soiree.jpg"
@@ -53,7 +53,7 @@ export default function Prestation() {
 					text2="Cela inclut la mise en place de scènes, la gestion des équipements audiovisuels, la coordination technique avec d'autres prestataires, etc."
 				/>
 			</div>
-			<div className="bg-[#3636FE0E]  border-gold-Border-sep-1 border-2 w-1/2 rounded flex mt-10">
+			<div className="bg-[#3636FE0E] flex flex-col-reverse border-gold-Border-sep-1 border-2 w-11/12 lg:w-2/3 rounded lg:flex mt-10">
 				<div className=" text-gold-Secondary-txt p-5 text-lg flex flex-col justify-evenly">
 					<p>
 						Nous sommes flexibles et nous nous adaptons à vos demandes
@@ -70,14 +70,14 @@ export default function Prestation() {
 						obtenir une proposition sur mesure pour votre événement.
 					</p>
 				</div>
-				<div className="flex relative">
+				<div className="lg:flex relative">
 					<div className="bg-gradient-to-t from-gold-Border-sep-1 via-gold-Border-ring-1 to-gold-Primary-text h-full w-[2px] absolute"></div>
 					<Image
 						src={imageAutres}
 						alt=""
 						width={500}
 						height={800}
-						className="h-auto"
+						className="lg:h-auto h-[200px]"
 					/>
 				</div>
 			</div>

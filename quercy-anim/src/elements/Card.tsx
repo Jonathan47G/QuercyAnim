@@ -20,7 +20,7 @@ const Card: React.FC<ContentProps> = ({
 		
 		<div className={style}>
 			<Image
-				className="object-cover w-6/7 h-[200px]"
+				className="object-cover w-full h-[300px] lg:h-[200px]"
 				src={image}
 				alt={title}
 				width={500}

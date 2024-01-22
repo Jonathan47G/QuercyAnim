@@ -13,14 +13,12 @@ import Footer from "@/conteneurs/Footer";
 export default function Home() {
 	return (
 		<>
-			<Header />
 			<Banniere />
 			<Prestation />
 			<Staff />
 			<Gallery />
 			<Apropos />
 			<RetourClient />
-			<Footer />
 			</>
 	);
 }
