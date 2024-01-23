@@ -25,12 +25,12 @@ export default function Gallery() {
 				defaultHeight={900}
 				defaultColumns={2}
 				defaultSpacing={1}
-				className="content-center box-border mt-[100px]">
+				className=" justify-center box-border mt-[100px]">
 				{galleryData.map((item, index) => {
 					return (
 						<div
 							key={item.id}
-							className="aspect-auto w-[24%] h-auto max-w-full cursor-pointer hover:"
+							className="aspect-auto w-[48%] lg:w-[24%] h-auto max-w-full cursor-pointer hover:"
 							>
 							<Image
 							onClick = {() => {

@@ -38,7 +38,7 @@ const Slider = () => {
 					className={`decoration-[#696256] text-gold-Primary-text decoration-2 underline underline-offset-[10px] capitalize`}>
 					<strong>Quercy anim&apos;</strong>
 				</h1>
-				<h2 className="mt-10 bg-gradient-to-r from-[#978365] via-[#CBB99F] to-white text-transparent drop-shadow bg-clip-text">
+				<h2 className="md:mt-10 text-xl md:text-2xl xl:text-5xl bg-gradient-to-r from-[#978365] via-[#CBB99F] to-white text-transparent drop-shadow bg-clip-text">
 				Votre événement, notre priorité
 				</h2>
 				</hgroup>
@@ -61,7 +61,7 @@ const Slider = () => {
 
 			<div className="conteneur-fleche w-full h-full absolute flex justify-between align-center z-20">
 				<button
-					className="p-8 h-full hover:backdrop-blur-md"
+					className="p-8 h-full hover:backdrop-blur-md transition-all"
 					onClick={handlePrev}
 					aria-label="Image précédente du slider">
 					<svg
@@ -70,7 +70,7 @@ const Slider = () => {
 						viewBox="0 0 24 24"
 						strokeWidth={1.5}
 						stroke="white"
-						className="w-10 h-10"
+						className="md:w-10 md:h-10 w-5 h-5"
 						>
 						<path
 							strokeLinecap="round"
@@ -89,7 +89,7 @@ const Slider = () => {
 						viewBox="0 0 24 24"
 						strokeWidth={1.5}
 						stroke="white"
-						className="w-10 h-10">
+						className="md:w-10 md:h-10 w-5 h-5">
 						<path
 							strokeLinecap="round"
 							strokeLinejoin="round"
@@ -98,11 +98,11 @@ const Slider = () => {
 					</svg>
 				</button>
 			</div>
-			<div className="conteneur-bullet flex gap-2 justify-center absolute inset-x-0 bottom-[100px] z-2 ">
+			<div className="conteneur-bullet flex gap-2 justify-center absolute inset-x-0 bottom-10 md:bottom-[100px] z-2 ">
 				{data.map((item, index) => (
 					<span
 						key={item.id}
-						className={`bullet rounded-full h-5 w-5 ${
+						className={`bullet rounded-full h-3 w-3 md:h-5 md:w-5 ${
 							index === currentIndex ? "active bg-[#A39073]" : "bg-white "
 						} `}
 						onClick={() => setCurrentIndex(index)}

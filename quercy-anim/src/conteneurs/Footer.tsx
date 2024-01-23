@@ -10,7 +10,7 @@ import badgeMariage from "../../public/images/badge_mariages.png";
 export default function Footer() {
 	return (
 		<footer >
-			<div className="grid grid-cols-3 justify-between items-center bg-iris-Background-2 border-t-2 p-5 border-gold-Border-sep-1 text-gold-Primary-text pt-10">
+			<div className="grid md:grid-cols-3 md:justify-between items-center bg-iris-Background-2 border-t-2 p-5 border-gold-Border-sep-1 text-gold-Primary-text pt-10 gap-20">
 			<hgroup className="flex flex-col justify-center items-center gap-5">
 				<Image src={logo} alt="badge mariage.net" width={40} height={40} />
 
@@ -18,7 +18,7 @@ export default function Footer() {
 				<Link href="mailto:quercy.anim@gmail.com" className=" rounded-xl p-3 bg-gold-Solid-1 hover:bg-gold-Solid-2 hover:scale-105">Contact</Link>
 			</hgroup>
 
-			<nav className="flex flex-col items-center justify-around h-full">
+			<nav className="flex flex-col items-center justify-around h-full gap-5">
 				<h3 className="text-xl underline">Nous suivre :</h3>
 				<ul className="flex gap-3 justify-center items-center">
 					

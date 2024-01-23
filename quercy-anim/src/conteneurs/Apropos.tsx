@@ -5,17 +5,18 @@ import backgroundTexture from "@/../../public/images/polygon_luminary.svg";
 
 export default function Apropos() {
 	return (
-		<section className="flex flex-col justify-center items-center relative pb-[80px] pt-[80px]" id="About">
+		<section className="relative md:pb-[80px] md:pt-[80px] md:mb-24 " id="About">
 			<Image
 				src={backgroundTexture}
 				alt="Background"
-				className="absolute opacity-15 h-full"
+				className="absolute opacity-15 md:h-full h-full w-full object-cover"
 			/>
-			<h2 className="mb-[50px] mt-[50px] decoration-[#696256] decoration-2 underline underline-offset-[9px] text-white font-extrabold  ">
+			<div>
+			<h2 className="mb-[50px] mt-[50px] decoration-[#696256] decoration-2 underline underline-offset-[9px] text-white font-extrabold text-center ">
 				Qui somme nous
 			</h2>
-			<div className="flex p-5 gap-10 items-center justify-evenly w-10/12">
-				<hgroup className="p-5 text-gold-Secondary-text text-lg w-3/5 backdrop-blur-sm">
+			<div className="flex flex-col-reverse xl:flex-row p-5 gap-20 items-center justify-center w-full">
+				<hgroup className="mt-5 text-gold-Secondary-text md:text-lg xl:w-3/5 backdrop-blur-sm">
 					<p>
 						Nous sommes une <strong>discomobile</strong> passionnée par{" "}
 						<strong>l&apos;animation d&apos;événements</strong>. Que ce soit
@@ -64,8 +65,9 @@ export default function Apropos() {
 					alt="Kevin et Nicolas"
 					width={500}
 					height={375}
-					className="rounded-lg scale-125 opacity-80"
+					className="rounded-sm xl:scale-125 opacity-80"
 				/>
+			</div>
 			</div>
 		</section>
 	);

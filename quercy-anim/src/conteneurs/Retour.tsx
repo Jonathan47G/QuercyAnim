@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function RetourClient() {
 	return (
 		<section className="flex flex-col justify-center items-center bg-iris-Background-1 pb-[50px]">
-			<h2 className=" mb-[50px] decoration-[#696256] decoration-2 underline underline-offset-[9px] text-white p-10 font-extrabold ">
+			<h2 className=" md:mb-[50px] decoration-[#696256] decoration-2 underline underline-offset-[9px] text-white p-10 font-extrabold ">
 				Retour client
 			</h2>
 			<div

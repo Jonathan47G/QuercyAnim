@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function PolitiqueConfidentialite() {
 	return (
-		<section className=" *:text-gold-Primary-text *:w-11/12 flex flex-col justify-around p-5 h-screen w-full">
-			<h2 className="text-gold-Secondary-text underline underline-offset-8 text-center">
+		<section className=" *:text-gold-Primary-text *:w-11/12 *:mb-5 flex flex-col justify-around p-5 md-h-screen w-full">
+			<h2 className="text-gold-Secondary-text underline underline-offset-8 text-center mb-10">
 				Politique de confidentialité
 			</h2>
 			<hgroup className="text-lg">

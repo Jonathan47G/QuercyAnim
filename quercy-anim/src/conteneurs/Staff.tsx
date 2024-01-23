@@ -7,7 +7,7 @@ import fondEcran from "../../public/images/photo/bg-equipe.jpg";
 
 export default function Staff() {
 	return (
-		<section className="mt-[100px] bg-iris-Background-1 h-[900px]" aria-label="Équipe Quercy Anim'">
+		<section className="mt-[100px] bg-iris-Background-1 lg:h-[900px]" aria-label="Équipe Quercy Anim'">
 			<div className="relative h-full">
 			<div className="absolute h-full overflow-hidden">
 			<div className="absolute inset-0 bg-gradient-to-b from-iris-Background-2 via-transparent to-iris-Background-2 h-full w-full z-10"></div>
@@ -23,11 +23,11 @@ export default function Staff() {
 			<h2 className="decoration-[#696256] decoration-2 underline underline-offset-[9px] backdrop-blur-sm mt-[50px] mb-[50px] text-center p-10">
 				<strong>Notre équipe</strong>
 			</h2>
-			<div className="flex justify-around text-gold-Primary-text z-30 gap-5">
+			<div className="flex flex-col lg:flex-row lg:justify-around text-gold-Primary-text z-30 lg:gap-5 gap-11">
 				{staffData.map((staff) => (
 					<article
 						key={staff.id}
-						className=" w-2/5 flex flex-col items-center gap-5 p-5 bg-[#574bf949] border-2 border-[#FFEDCD48] rounded-b-lg hover:scale-110 transition-transform"
+						className=" lg:w-2/5 flex flex-col items-center gap-5 p-5 backdrop-blur-lg border border-gold-Border-sep-2 rounded-b-md hover:scale-105 transition-transform"
 						aria-label={`Membre du personnel : ${staff.titre}`}>
 						<Image
 							src={staff.image}

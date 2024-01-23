@@ -10,15 +10,15 @@ export default function Prestation() {
 			"flex flex-col bg-[#3636FE0E] border-2 border-gold-Border-sep-1 rounded-b-lg",
 	};
 	return (
-		<section className="bg-iris-Background-2 text-gold-Primary-text pt-[150px] flex flex-col relative items-center gap-10 "  id="Prestations">
-			<div className="absolute w-full z-0 top-[-75px]">
+		<section className="bg-iris-Background-2 text-gold-Primary-text lg:pt-[150px] flex flex-col relative items-center gap-10 "  id="Prestations">
+			<div className="absolute w-full z-0 top top-[-75px]">
 				<Image
-					className="object-fill w-full h-[500px] opacity-60 z-0"
+					className="object-fill w-full lg:h-[500px] opacity-60 z-0"
 					src={waveLine}
 					alt="Fond en forme d'onde"
 				/>
 			</div>
-			<h2 className="decoration-[#696256] decoration-2 underline underline-offset-[9px] mb-[125px] text-center z-10">
+			<h2 className="decoration-[#696256] decoration-2 underline underline-offset-[9px] lg:mb-[125px] text-center z-10">
 				<strong>Nos prestations</strong>
 			</h2>
 
@@ -53,7 +53,7 @@ export default function Prestation() {
 					text2="Cela inclut la mise en place de scènes, la gestion des équipements audiovisuels, la coordination technique avec d'autres prestataires, etc."
 				/>
 			</div>
-			<div className="bg-[#3636FE0E] flex flex-col-reverse border-gold-Border-sep-1 border-2 w-11/12 lg:w-2/3 rounded lg:flex mt-10">
+			<div className="bg-[#3636FE0E] flex flex-col-reverse lg:flex-row border-gold-Border-sep-1 border-2 w-11/12 lg:w-2/3 rounded mt-10">
 				<div className=" text-gold-Secondary-txt p-5 text-lg flex flex-col justify-evenly">
 					<p>
 						Nous sommes flexibles et nous nous adaptons à vos demandes
@@ -70,14 +70,14 @@ export default function Prestation() {
 						obtenir une proposition sur mesure pour votre événement.
 					</p>
 				</div>
-				<div className="lg:flex relative">
-					<div className="bg-gradient-to-t from-gold-Border-sep-1 via-gold-Border-ring-1 to-gold-Primary-text h-full w-[2px] absolute"></div>
+				<div className="flex relative">
+					<div className="bg-gradient-to-t from-gold-Border-sep-1 via-gold-Border-ring-1 to-gold-Primary-text w-full h-[2px] top-52 lg:top-0 lg:h-full lg:w-[2px] absolute"></div>
 					<Image
 						src={imageAutres}
 						alt=""
 						width={500}
 						height={800}
-						className="lg:h-auto h-[200px]"
+						className="h-[208px] w-full object-cover lg:h-auto"
 					/>
 				</div>
 			</div>

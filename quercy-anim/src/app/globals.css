@@ -9,7 +9,8 @@
         @apply font-josefin
     }
     h1 {
-        @apply text-5xl;
+        @apply text-2xl;
+        @apply md:text-5xl;
         @apply xl:text-7xl
     }
     h2 {
