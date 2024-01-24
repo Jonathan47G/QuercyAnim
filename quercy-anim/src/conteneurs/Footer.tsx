@@ -5,14 +5,14 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
-import badgeMariage from "../../public/images/badge_mariages.png";
+import badgeMariage from "../../public/images/badge_mariages.webp";
 
 export default function Footer() {
 	return (
 		<footer >
 			<div className="grid md:grid-cols-3 md:justify-between items-center bg-iris-Background-2 border-t-2 p-5 border-gold-Border-sep-1 text-gold-Primary-text pt-10 gap-20">
 			<hgroup className="flex flex-col justify-center items-center gap-5">
-				<Image src={logo} alt="badge mariage.net" width={40} height={40} />
+				<Image src={logo} alt="badge mariage.net" width={40} />
 
 				<p className="text-lg">Des questions ? Contactez-nous !</p>
 				<Link href="mailto:quercy.anim@gmail.com" className=" rounded-xl p-3 bg-gold-Solid-1 hover:bg-gold-Solid-2 hover:scale-105">Contact</Link>

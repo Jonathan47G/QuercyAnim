@@ -6,7 +6,7 @@ import logo from "../../public/images/Logo_Quercy_AnimRedim.png";
 import Link from "next/link";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import badgeMariage from "../../public/images/badge_mariages.png";
+import badgeMariage from "../../public/images/badge_mariages.webp";
 import HamburgerMenu from "@/elements/HamburgerMenu";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -34,7 +34,7 @@ export default function Header() {
 					src={logo}
 					height={45}
 					alt="logo Quercy Anim"
-					className="h-[45px]"
+					className="w-auto h-auto"
 				/>
 				<button onClick={toggleMenu} className="lg:hidden text-gold-Primary-text">
 					<MenuIcon fontSize="large" />

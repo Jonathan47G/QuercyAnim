@@ -1,19 +1,19 @@
 [
     {
       "id": 1,
-      "image": "/images/slideShow/image1.jpg",
+      "image": "/images/slideShow/image1.webp",
       "titre": "Titre de l'image 1",
       "date": "01/01/2023"
     },
     {
       "id": 2,
-      "image": "/images/slideShow/image2.jpg",
+      "image": "/images/slideShow/image2.webp",
       "titre": "Titre de l'image 2",
       "date": "02/01/2023"
     },
     {
       "id": 3,
-      "image": "/images/slideShow/image3.jpg",
+      "image": "/images/slideShow/image3.webp",
       "titre": "Titre de l'image 3",
       "date": "03/01/2023"
     }

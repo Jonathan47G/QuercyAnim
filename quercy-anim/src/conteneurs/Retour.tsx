@@ -1,5 +1,5 @@
 import Image from "next/image";
-import badgeMariage from "../../public/images/badge_mariages.png";
+import badgeMariage from "../../public/images/badge_mariages.webp";
 import Link from "next/link";
 
 export default function RetourClient() {

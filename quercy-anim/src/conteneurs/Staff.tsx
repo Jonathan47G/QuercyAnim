@@ -3,7 +3,7 @@
 import Card from "@/elements/Card";
 import Image from "next/image";
 import staffData from "../../data/staff.json";
-import fondEcran from "../../public/images/photo/bg-equipe.jpg";
+import fondEcran from "../../public/images/photo/bg-equipe.webp";
 
 export default function Staff() {
 	return (

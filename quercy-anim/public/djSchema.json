@@ -1,0 +1,16 @@
+{
+	"@context": "http://schema.org",
+	"@type": "LocalBusiness",
+	"name": "Quercy Anim'",
+	"image": "/images/kevin_nico.webp",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "Les plaines de Fillol,  ",
+		"addressLocality": "Montaigu-de-Quercy",
+		"addressRegion": "Tarn et Garonne",
+		"postalCode": "82150"
+	},
+	"telephone": "06 64 94 84 93",
+	"priceRange": "$$",
+	"description": "DJ Animateur (Discomobile) spécialisé dans l'animation de fêtes de village, mariages, anniversaires, et autres événements. Apporte une ambiance dynamique et festive à toutes les occasions. Contactez-nous pour créer des moments mémorables avec une musique et une animation adaptées à vos besoins."
+}

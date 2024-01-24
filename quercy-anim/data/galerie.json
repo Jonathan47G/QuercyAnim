@@ -1,67 +1,67 @@
 [
 	{
 		"id": 1,
-		"image": "/images/gallery/1.jpg",
+		"image": "/images/gallery/1.webp",
 		"titre": "bal des pompier Montaigu",
 		"date": "01/01/2023"
 	},
 	{
 		"id": 2,
-		"image": "/images/gallery/2.jpg",
+		"image": "/images/gallery/2.webp",
 		"titre": "Image concert",
 		"date": "02/01/2023"
 	},
 	{
 		"id": 3,
-		"image": "/images/gallery/3.jpg",
+		"image": "/images/gallery/3.webp",
 		"titre": "Fête Auvillar",
 		"date": "03/01/2023"
 	},
 	{
 		"id": 4,
-		"image": "/images/gallery/4.jpg",
+		"image": "/images/gallery/4.webp",
 		"titre": "Fête local Dunes",
 		"date": "01/01/2023"
 	},
 	{
 		"id": 5,
-		"image": "/images/gallery/5.jpg",
+		"image": "/images/gallery/5.webp",
 		"titre": "Image d'une fête local",
 		"date": "02/01/2023"
 	},
 	{
 		"id": 6,
-		"image": "/images/gallery/6.jpg",
+		"image": "/images/gallery/6.webp",
 		"titre": "Photo d'un mariage",
 		"date": "03/01/2023"
 	},
 	{
 		"id": 7,
-		"image": "/images/gallery/7.jpg",
+		"image": "/images/gallery/7.webp",
 		"titre": "Fête Mas Grenier 1",
 		"date": "03/01/2023"
 	},
 	{
 		"id": 8,
-		"image": "/images/gallery/8.jpg",
+		"image": "/images/gallery/8.webp",
 		"titre": "Fête Mas Grenier 2",
 		"date": "03/01/2023"
 	},
 	{
 		"id": 9,
-		"image": "/images/gallery/9.jpg",
+		"image": "/images/gallery/9.webp",
 		"titre": "Scene fêtes",
 		"date": "03/01/2023"
 	},
 	{
 		"id": 10,
-		"image": "/images/gallery/10.jpg",
+		"image": "/images/gallery/10.webp",
 		"titre": "Photo soirée de Gala",
 		"date": "03/01/2023"
 	},
 	{
 		"id": 11,
-		"image": "/images/gallery/11.jpg",
+		"image": "/images/gallery/11.webp",
 		"titre": "Soiree privée",
 		"date": "03/01/2023"
 	}

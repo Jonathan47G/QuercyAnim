@@ -2,7 +2,7 @@
 
 import Card from "@/elements/Card";
 import Image from "next/image";
-import imageAutres from "../../public/images/card/autres.jpg";
+import imageAutres from "../../public/images/card/autres.webp";
 import waveLine from "../../public/waveLine.svg";
 export default function Prestation() {
 	const cardProps = {

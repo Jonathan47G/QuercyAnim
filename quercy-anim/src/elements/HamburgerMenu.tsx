@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import badgeMariage from "../../public/images/badge_mariages.png";
+import badgeMariage from "../../public/images/badge_mariages.webp";
 import Image from "next/image";
 
 interface HamburgerMenuProps {

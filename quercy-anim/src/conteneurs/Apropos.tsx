@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import kevinNico from "@/../../public/images/kevin_nico.jpg";
+import kevinNico from "@/../../public/images/kevin_nico.webp";
 import backgroundTexture from "@/../../public/images/polygon_luminary.svg";
 
 export default function Apropos() {
@@ -9,7 +9,8 @@ export default function Apropos() {
 			<Image
 				src={backgroundTexture}
 				alt="Background"
-				className="absolute opacity-15 md:h-full h-full w-full object-cover"
+				className="absolute opacity-15 md:h-full h-full w-auto object-cover"
+				priority={false}
 			/>
 			<div>
 			<h2 className="mb-[50px] mt-[50px] decoration-[#696256] decoration-2 underline underline-offset-[9px] text-white font-extrabold text-center ">

@@ -44,7 +44,7 @@ const Slider = () => {
 				</hgroup>
 			</div>
 
-			<div className={`conteneur_slider max-h-[700px] aspect-video relative ${animationClass}`}>
+			<div className={`conteneur_slider max-h-[700px] h-full aspect-video relative ${animationClass}`}>
 				<div
 					className="h-full w-full z-1 bg-gradient-to-b from-black to transparent absolute z-10"></div>
 					
