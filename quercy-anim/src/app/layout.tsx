@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { Playfair, Josefin_Sans } from "next/font/google";
 import { LocalBusiness, WithContext } from "schema-dts";
 import "./globals.css";
-import Script from "next/script";
 import Header from "@/conteneurs/Headers";
 import Footer from "@/conteneurs/Footer";
-import Head from "next/head";
 
 const playfair = Playfair({ subsets: ["latin"], variable: "--font-playfair" });
 const josefin = Josefin_Sans({
@@ -15,11 +13,7 @@ const josefin = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-	metadataBase: {
-		title: "Quercy Anim",
-		description: "DJ, Disc-jockey, Discomobile, animation, fête, mariage, anniversaire, événement, musique",
-		url: "https://quercy-anim.vercel.app/",
-	  },
+	metadataBase: new URL('https://quercy-anim.vercel.app/'),
 	alternates: {
 		canonical:'https://quercy-anim.vercel.app/'
 	},
@@ -38,7 +32,7 @@ export const metadata: Metadata = {
 		url: "https://quercy-anim.vercel.app/",
 		images: [
 			{
-				url: "https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/406372072_17932014218789260_1701479443704410279_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=4lOHin_9RcUAX9D2M45&_nc_ht=scontent-cdg4-2.xx&oh=00_AfAXMbPWds2earcoX1-z4NDfN5VBvghwYQ9D06Xr6mLT1A&oe=65B749F3",
+				url: "/images/card/animation_soiree.webp",
 				width: 800,
         height: 600,
         alt: 'Kévin Guestin',
