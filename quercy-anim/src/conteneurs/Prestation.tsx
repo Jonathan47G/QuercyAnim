@@ -25,28 +25,28 @@ export default function Prestation() {
 			<div className="grid lg:grid-cols-4  gap-11 w-11/12 m-auto z-10">
 				<Card
 					style={cardProps.cardClassName}
-					image="../../public/images/card/animation_soiree.jpg"
+					image="/images/card/animation_soiree.webp"
 					title="Animation de soirée"
 					text1="Quercy'Anim met à votre disposition des DJ expérimentés et passionnés qui sauront créer une ambiance festive et entraînante pour tous vos événements."
 					text2="Nous sommes spécialisés dans l'animation de soirées dansantes et nous nous adaptons à tous les styles musicaux."
 				/>
 				<Card
 					style={cardProps.cardClassName}
-					image="../../public/images/card/eclairage.jpg"
+					image="/images/card/eclairage.webp"
 					title="Éclairage"
 					text1="Notre équipe maîtrise l'art de l'éclairage pour créer des ambiances visuelles captivantes."
 					text2="Nous utilisons des jeux de lumières, des projecteurs et des effets spéciaux pour illuminer votre événement et créer une atmosphère unique."
 				/>
 				<Card
 					style={cardProps.cardClassName}
-					image="../../public/images/card/sonorisation.jpg"
+					image="/images/card/sonorisation.webp"
 					title="Sonorisation"
 					text1="Nous disposons d'un matériel professionnel de sonorisation qui garantit une qualité sonore exceptionnelle."
 					text2="Que ce soit pour une petite salle ou un grand espace, nous ajustons notre système de sonorisation en fonction de vos besoins et de l'acoustique de l'endroit."
 				/>
 				<Card
 					style={cardProps.cardClassName}
-					image="../../public/images/card/prestation_tech.jpg"
+					image="/images/card/prestation_tech.webp"
 					title="Prestations techniques"
 					text1="En plus de l'animation, de la sonorisation et de l'éclairage, Quercy'Anim propose une gamme de prestations techniques pour répondre à tous vos besoins.
                     "
