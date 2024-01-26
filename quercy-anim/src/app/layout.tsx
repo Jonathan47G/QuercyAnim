@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 	
 	openGraph: {
 		type: "website",
-		url: "https://example.com",
+		url: "https://quercy-anim.vercel.app/",
 		title: "Quercy Anim'",
 		description: "DJ Animateur (Discomobile) spécialisé dans l'animation de fêtes de village, mariages, anniversaires, et autres événements. Apporte une ambiance dynamique et festive à toutes les occasions. Contactez-nous pour créer des moments mémorables avec une musique et une animation adaptées à vos besoins.",
 		siteName: "Quercy Anim'",
@@ -45,7 +45,7 @@ export default function RootLayout({
           data-use-service-core
           defer
         />
-		<script type="application/ld+json" src="/djSchema.json"  defer/>
+		<script type="application/ld+json" src="/djSchema.json" async />
 		</head>
 			<body className="bg-iris-Background-2"><Header/> {children} <Footer /></body>
 		</html>
