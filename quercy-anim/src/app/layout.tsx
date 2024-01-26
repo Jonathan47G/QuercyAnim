@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Playfair, Josefin_Sans } from "next/font/google";
+import { LocalBusiness, WithContext } from "schema-dts";
 import "./globals.css";
 import Script from "next/script";
 import Header from "@/conteneurs/Headers";
 import Footer from "@/conteneurs/Footer";
+import Head from "next/head";
 
 const playfair = Playfair({ subsets: ["latin"], variable: "--font-playfair" });
 const josefin = Josefin_Sans({
@@ -36,24 +38,40 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-	
 	children,
 }: {
 	children: React.ReactNode;
 }) {
+	const jsonLd: WithContext<LocalBusiness> = {
+		"@context": "https://schema.org",
+		"@type": "LocalBusiness",
+		name: "Quercy Anim",
+		image: "/images/kevin_nico.webp",
+		address: {
+			"@type": "PostalAddress",
+			streetAddress: "Les plaines de, Fillol,  ",
+			addressLocality: "Montaigu-de-Quercy",
+			addressRegion: "Tarn et Garonne",
+			postalCode: "82150",
+		},
+		telephone: "06 64 94 84 93",
+		priceRange: "$$",
+		description:
+			"DJ Animateur (Discomobile) spécialisé dans l'animation de fêtes de village, mariages, anniversaires, et autres événements. Apporte une ambiance dynamique et festive à toutes les occasions. Contactez-nous pour créer des moments mémorables avec une musique et une animation adaptées à vos besoins.",
+	};
 	return (
 		<html
 			className={`max-w-[2000px] m-auto bg-iris-Background-1 ${playfair.variable} ${josefin.variable}`}
 			lang="fr">
-			<head>
-				<Script
+			<Head>
+				<script
 					src="https://static.elfsight.com/platform/platform.js"
 					data-use-service-core
 					defer
 				/>
+				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 				<link rel="canonical" href="https://quercy-anim.vercel.app/" />
-				<script type="application/ld+json" src="/djSchema.json" async />
-			</head>
+			</Head>
 			<body className="bg-iris-Background-2">
 				<Header /> {children} <Footer />
 			</body>
