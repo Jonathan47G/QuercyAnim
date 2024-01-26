@@ -63,7 +63,7 @@ export default function RootLayout({
 		<html
 			className={`max-w-[2000px] m-auto bg-iris-Background-1 ${playfair.variable} ${josefin.variable}`}
 			lang="fr">
-			<Head>
+			<head>
 				<script
 					src="https://static.elfsight.com/platform/platform.js"
 					data-use-service-core
@@ -71,7 +71,7 @@ export default function RootLayout({
 				/>
 				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 				<link rel="canonical" href="https://quercy-anim.vercel.app/" />
-			</Head>
+			</head>
 			<body className="bg-iris-Background-2">
 				<Header /> {children} <Footer />
 			</body>
