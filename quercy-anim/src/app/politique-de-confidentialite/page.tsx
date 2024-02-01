@@ -30,8 +30,8 @@ export default function PolitiqueConfidentialite() {
 					sphère privée. Cette politique vise à vous informer sur la cueillette,
 					l&apos;exploitation et la diffusion des informations fournies via
 					notre site internet :
-					<Link href="https://no-limit-animations.com">
-						a remplir
+					<Link href="https://quercy-anim.vercel.app/">
+						quercy-anim.vercel.app
 					</Link>
 				</p>
 			</hgroup>
