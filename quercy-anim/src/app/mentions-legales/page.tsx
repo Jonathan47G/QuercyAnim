@@ -22,8 +22,8 @@ export default function MentionLegales() {
 				<h3 className="text-gold-Secondary-text underline underline-offset-8 mb-5">Mise en œuvre</h3>
 				<p>
 					Développé par Jonathan Guestin :{" "}
-					<Link href="https://guestinjonathan.vercel.app/">
-						Lien vers le portfolio
+					<Link className=" underline" href="https://guestinjonathan.vercel.app/">
+						Portfolio
 					</Link>
 				</p>
 				<p>Site créé avec Next.js et Tailwind CSS</p>
